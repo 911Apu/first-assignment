@@ -6,6 +6,7 @@
 .header{
  padding: 230px 245px;
  background: url(/images/banner/banner2.png);
+ background-repeat: no-repeat;
 }
 
 .banner{
@@ -39,5 +40,62 @@ margin-bottom: 20px;
 .possible{
     color:grey ;
 }
+/* main */
+main{
+    max-width: 1400px;
+    margin:;
+    padding:0px 200px ;
 
+    
+}
+/* failure section */
+.failure-title{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+.failure-paragraph{
+    text-align: center;
+    font-size: 16px;
+    color: #444343;
+    
 
+}
+.failure-container{
+ display: flex;
+}
+.failure-description{
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #444343;
+}
+/* my plan section */
+.section-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+}
+.my-plan-container{
+    display: flex;
+    justify-content: space-around;
+}
+.plan-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.plan-sub-title{
+text-align: center;
+color: #737272;
+font: 25px;
+font-weight: 500px;
+margin-bottom: 10px;
+margin-top: 10px;
+}
