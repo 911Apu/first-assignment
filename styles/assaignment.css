@@ -16,10 +16,9 @@
     align-items: center;
 }
 .banner-title{
-   margin-top: ;
     font-weight: 650px;
 font-size: 60px;
-margin-bottom: 20px;
+margin-bottom:20px;
 }
 
 .banner-paragraph{
@@ -27,6 +26,7 @@ margin-bottom: 20px;
     color: #005FAC;
     font-size: 16px;
 }
+/* btn primary */
 .btn-primary{
     height: 64px;
     padding: 20px 25px;
@@ -43,7 +43,6 @@ margin-bottom: 20px;
 /* main */
 main{
     max-width: 1400px;
-    margin:;
     padding:0px 200px ;
 
     
@@ -56,12 +55,10 @@ main{
     font-weight: 700px;
     margin-bottom: 20px;
 }
-.failure-paragraph{
+ul li{
     text-align: center;
     font-size: 16px;
-    color: #444343;
-    
-
+    color: #737272;
 }
 .failure-container{
  display: flex;
@@ -69,7 +66,7 @@ main{
 .failure-description{
     margin-bottom: 15px;
     font-size: 14px;
-    color: #444343;
+    color: #005FAC;
 }
 /* my plan section */
 .section-title{
@@ -99,6 +96,7 @@ font-weight: 500px;
 margin-bottom: 10px;
 margin-top: 10px;
 }
+/* mindset  */
 .mindset-container{
     text-align: left;
     margin-top: 80px;
@@ -123,7 +121,7 @@ text-align: right;
     margin-bottom: 25px;
 color: #FFFFFF;
 }
-/* footer styles */
+/* future */
 .footer{
     margin-top: 50px;
     background-color: #151414;;
@@ -166,4 +164,8 @@ color: #F15B22;
 border: none;
 border-radius: 10px;
     
+}
+li{
+    list-style: none;
+
 }
